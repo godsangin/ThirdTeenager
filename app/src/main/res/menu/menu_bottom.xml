@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_shared"
+        android:icon="@drawable/ic_archive_gray_24dp"
+        android:title="Shared Bucket" />
+
+    <item
+        android:id="@+id/navigation_mybucket"
+        android:icon="@drawable/ic_face_gray_24dp"
+        android:title="MyBucket" />
+
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@drawable/ic_thumb_up_gray_24dp"
+        android:title="Rank" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_message_gray_24dp"
+        android:title="Chat" />
+</menu>
