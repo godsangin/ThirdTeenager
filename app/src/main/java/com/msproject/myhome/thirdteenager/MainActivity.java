@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
     private BucketsFragment bucketsFragment = new BucketsFragment();
+    private MyBucketFragment myBucketFragment = new MyBucketFragment();
     Context mContext;
 
     @Override
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         transaction.replace(R.id.frame_layout, bucketsFragment).commitAllowingStateLoss();
                         break;
                     case R.id.navigation_mybucket:
+                        transaction.replace(R.id.frame_layout, myBucketFragment).commitAllowingStateLoss();
                         break;
                     case R.id.navigation_rank:
                         break;
